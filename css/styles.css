@@ -1193,7 +1193,7 @@ button {
     text-align: left;
     padding: 0 15px;
     gap: unset;
-    max-width: 1158px;
+    width: 1158px;
   }
   .footer-content {
     margin-right: 120px;
