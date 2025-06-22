@@ -1185,21 +1185,29 @@ button {
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    text-align: left;
   }
   .footer .container {
     display: flex;
-    align-items: baseline;
+    flex-direction: row;
     text-align: left;
-    max-width: 1158px;
     padding: 0 15px;
     gap: unset;
+    max-width: 1158px;
   }
   .footer-content {
     margin-right: 120px;
     width: 264px;
   }
   .container-media {
+    max-width: 208px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin-right: 80px;
+  }
+  .container-media-subscribe {
+    max-width: 453px;
   }
 }
 
